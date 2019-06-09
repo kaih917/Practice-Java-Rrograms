@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70c44c77-8146-4b8f-8e35-fafda2ca156d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    <list default="true" id="70c44c77-8146-4b8f-8e35-fafda2ca156d" name="Default" comment="Multi threading practice experiment.">
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/infra/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/runner/Run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/runner/SynBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/services/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/services/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/threads/ThreadAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/threads/ThreadSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/reentrantlock/basic/IntLock/IntLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/reentrantlock/basic/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/reentrantlock/fair/FairLock/FairLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/reentrantlock/fair/Runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/reentrantlock/timeout/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/reentrantlock/timeout/timelock/TimeLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/wait/runner/runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/wait/threads/ChangeObjectThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/wait/threads/ReadObjectThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnZipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnZipper.java" afterDir="false" />
     </list>
     <ignored path="UnzipTool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,8 +34,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ErrorTreeViewConfiguration">
     <option name="hideWarnings" value="true" />
@@ -29,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UnZipper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="141">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,6 +62,30 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/services/Add.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/wait/runner/runner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,7 +112,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="256" />
+    <option name="x" value="255" />
     <option name="y" value="-15" />
     <option name="width" value="1440" />
     <option name="height" value="775" />
@@ -85,7 +125,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,9 +141,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
@@ -234,13 +275,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18699732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15348525" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="UI Designer" order="4" />
+      <window_info id="Learn" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32930845" />
@@ -248,17 +290,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32930845" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2266289" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -271,7 +313,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload uzip file tool." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload uzip file tool." />
+    <MESSAGE value="Multi threading practice experiment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Multi threading practice experiment." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -283,23 +326,41 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/util/zip/ZipFile.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_40/src.zip!/java/io/File.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/UnzipTool/UpZipper.class">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/out/production/UnzipTool/UpZipper.class" />
+    <entry file="file://$PROJECT_DIR$/src/UnZipper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnZipper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/wait/runner/runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MutiThreading/src/com/rmit/multi/ifwhile/services/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
